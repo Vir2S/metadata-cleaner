@@ -1,0 +1,8 @@
+[project]
+name = "metadata-cleaner"
+version = "0.1.0"
+description = "CLI utility for removing metadata from media files using ExifTool"
+requires-python = ">=3.9"
+
+[project.scripts]
+metadata-cleaner = "clean_metadata:main"
